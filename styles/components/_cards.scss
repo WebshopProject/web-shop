@@ -1,0 +1,23 @@
+
+.card {
+    border: 5px solid fonts.$light-green ;
+}
+
+.card__title {
+    font-size: 36px; //adjust if needed
+    color: fonts.$dark-green;
+    text-align: center;
+}
+
+.card__txt {
+    font-size: 24px; //adjust if needed
+    color: fonts.$dark-green;
+}
+
+.card:hover {
+    border: 5px solid fonts.$dark-green;
+}
+
+.card--filled {
+    background-color: fonts.$light-green;
+}
