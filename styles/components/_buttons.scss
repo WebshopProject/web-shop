@@ -1,0 +1,18 @@
+
+//light-green button
+.btn--light {
+    background-color: fonts.$light-green;
+    font-family: fonts.$font;
+    font-size: 24px; //adjust if needed
+}
+
+//dark-green button
+.btn--dark {
+    background-color: fonts.$dark-green;
+    font-family: fonts.$font;
+    font-size: 24px; //adjust if needed
+}
+
+.btn:hover {
+    background-color: fonts.$orange;
+}
