@@ -11,7 +11,7 @@
     }
     &-title {
         color: fonts.$dark-green;
-        font-size: $footer-size;
+        font-size: nav-style.$footer-size;
         font-weight: nav-style.$bold;
     }
     &-info {

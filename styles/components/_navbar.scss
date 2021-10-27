@@ -1,5 +1,5 @@
 @use 'base/fonts';
-@use 'base/nav-base';
+@use 'base/nav-style';
 
 /*Customized styling for the navbar*/
 
@@ -29,8 +29,8 @@ padding-right: 1%;
 
 .nav-link-customize {
     color: fonts.$dark-green;
-    font-size: nav-base.$nav-size;
-    font-weight: nav-base.$bold;
+    font-size: nav-style.$nav-size;
+    font-weight: nav-style.$bold;
     transition: .2s;
     border: 1px solid red;
     padding-left: 1%;

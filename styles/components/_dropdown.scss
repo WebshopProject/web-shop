@@ -1,5 +1,5 @@
 @use 'base/fonts';
-@use 'base/nav-base';
+@use 'base/nav-style';
 
   * {
     margin: 0;
@@ -50,8 +50,8 @@
 
   .dropdown-link-customize {
     color: fonts.$beige;
-    font-size: nav-base.$nav-size;
-    font-weight: nav-base.$bold;
+    font-size: nav-style.$nav-size;
+    font-weight: nav-style.$bold;
     transition: .2s;
     border: 1px solid blue;
     padding-left: 1%;
