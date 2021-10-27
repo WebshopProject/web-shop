@@ -1,8 +1,11 @@
 
+@use 'base/fonts';
+
 //light-green button
 .btn--light {
     background-color: fonts.$light-green;
     font-family: fonts.$font;
+    color: fonts.$dark-green;
     font-size: 24px; //adjust if needed
 }
 
@@ -10,6 +13,7 @@
 .btn--dark {
     background-color: fonts.$dark-green;
     font-family: fonts.$font;
+    color: fonts.$beige;
     font-size: 24px; //adjust if needed
 }
 

@@ -1,6 +1,7 @@
 
-.card {
-    border: 5px solid fonts.$light-green ;
+.card--custom {
+    border: 5px solid fonts.$light-green;
+    background-color: fonts.$beige;
 }
 
 .card__title {
