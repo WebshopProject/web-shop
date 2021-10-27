@@ -1,0 +1,43 @@
+@use 'base/fonts';
+@use 'base/nav-style';
+@import 'components/navbar';
+
+.footer {
+    margin: 0;
+    padding: 0;
+    &__customize {
+        min-height: 146px;
+        width: 100%;
+    }
+    &-title {
+        color: fonts.$dark-green;
+        font-size: $footer-size;
+        font-weight: nav-style.$bold;
+    }
+    &-info {
+        color: fonts.$dark-green;
+        font-size: nav-style.$footer-info;
+        &__link {
+            color: fonts.$dark-green;
+            text-decoration: none;
+            font-size: nav-style.$footer-info;
+            &:link, &:visited {
+                color: fonts.$dark-green;
+                text-decoration: none;
+            }
+        }
+    }
+    &__mail {
+        color: fonts.$dark-green;
+        text-decoration: none;
+        font-size: nav-style.$footer-info;
+        &:link, &:visited {
+            color: fonts.$dark-green;
+            text-decoration: none;
+        }
+    }
+}
+
+// .social {
+
+// }
