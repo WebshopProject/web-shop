@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9877bc6c1f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>Document</title>
 </head>
@@ -17,7 +18,9 @@
     <header class="header nav-customize">
         <nav class="nav-customize navbar navbar-expand-lg">
             <div class="container-fluid nav-container">
-                <a class="navbar-brand logo" href="index.html"><img src="images/logo/hand.svg" alt="logo of a hand"></a>
+                <a class="navbar-brand logo" href="#">
+                    <span class="icon icon_logo"></span>
+                </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-container navbar-nav navbar-customize">
                     <li class="nav-item">
@@ -27,7 +30,7 @@
                     <div class="dropdown">
                         <div class="products">
                             <button class="nav-item nav-link-customize">Products</button>
-                            <ul class="navbar-customize">
+                            <ul class="navbar-customize dropdown-menu-customize">
                               <li class="nav-item">
                                   <a href="#" class="dropdown-link-customize">Category</a>
                                 </li>
@@ -55,7 +58,9 @@
                     </li>
                 </ul>
                 </div>
-                <a href="#" class="cart"><img src="images/logo/so-basket.svg" alt="icon of a shopping cart"></a>
+                <a class="cart icon icon__cart" href="#">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </a>
             </div>
       </nav>
     </header>
@@ -134,22 +139,21 @@
                         Contact
                     </h6>
                     <p class="footer-title__info">
+                        <i class="fas fa-map-marker-alt"></i>
                         City, Address, Sweden
                     </p>
                     <p class="footer-info">
                         <a href="mailto:#" class="footer-title__info footer__mail">
+                            <i class="far fa-envelope"></i>
                             info@mail.com
                         </a>
                     </p>
-                    <p class="footer-info">
-                        <a href="mailto:#" class="footer-title__info footer__mail">
-                            support@mail.com
-                        </a>
-                    </p>
                     <p class="footer-title__info">
+                        <i class="fas fa-phone"></i>
                         + a phone number
                     </p>
                 </div>
+
                 <!--Links/Icons for social media-->
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h6 class="mb-4 footer-title">
@@ -157,15 +161,15 @@
                     </h6>
                     <!--Facebook-->
                     <a href="#" class="social">
-                        <!--Icon-->
+                        <i class="fab fa-facebook"></i>
                     </a>
                     <!--Twitter-->
                     <a href="#" class="social">
-                        <!--Icon-->
+                        <i class="fab fa-twitter"></i>
                     </a>
                     <!--Instagram-->
                     <a href="#" class="social">
-                        <!--Icon-->
+                        <i class="fab fa-instagram"></i>
                     </a>
                 </div>
                 <!--Customer info-->
