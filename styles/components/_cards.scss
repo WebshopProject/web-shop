@@ -2,6 +2,7 @@
 .card--custom {
     border: 5px solid fonts.$light-green;
     background-color: fonts.$beige;
+    opacity: 0.7;
 }
 
 .card__title {
@@ -17,6 +18,7 @@
 
 .card:hover {
     border: 5px solid fonts.$dark-green;
+    opacity: 1;
 }
 
 .card--filled {
