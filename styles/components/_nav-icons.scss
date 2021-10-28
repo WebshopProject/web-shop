@@ -1,0 +1,12 @@
+@use 'base/fonts';
+@use 'base/nav-style';
+
+
+.cart {
+    max-width: 75px;
+    display: flex;
+    justify-content: center;
+    &__icon {
+        width: 65%;
+    }
+}

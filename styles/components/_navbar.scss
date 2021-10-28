@@ -3,55 +3,38 @@
 
 /*Customized styling for the navbar*/
 
+
 .nav-customize {
     background-color: fonts.$light-green;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid green;
+    margin: auto;
 }
 
-.logo {
-margin-left: 3%;
-margin-right: 2%;
-padding-left: 1%;
-padding-right: 1%;
-color: fonts.$dark-green;
-transition: .2s;
-    &:hover {
-        color: fonts.$orange;
-    }
-}
 
 .navbar-container {
-    margin-left: 2%;
-    margin-right: 2%;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
+    align-items: center;
+    border: 1px solid red;
+
 }
+
+
 
 .nav-link-customize {
     color: fonts.$dark-green;
     font-size: nav-style.$nav-size;
     font-weight: nav-style.$bold;
     transition: .2s;
-    border: 1px solid red;
-    padding-left: 1%;
-    padding-right: 1%;
+    border: 1px solid black;
     &:link, &:visited {
         color: fonts.$dark-green;
     }
     &:hover, &:active {
         color: fonts.$orange;
     }
-}
-
-.cart {
-    margin-left: 2%;
-    margin-right: 3%;
-    padding-left: 1%;
-    padding-right: 1%;
-    transition: all 0.4s ease;
 }

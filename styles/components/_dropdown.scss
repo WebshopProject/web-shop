@@ -7,12 +7,10 @@
   }
 
   .dropdown {
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1%;
-    padding-right: 1%;
-    border: 1px solid blue;
   }
 
   .products {
@@ -20,31 +18,35 @@
   }
 
   .products ul {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     position: absolute;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    // max-width: 600px;
-    // width: auto;
-    // height: auto;
+    width: 170%;
     background: fonts.$light-green;
     opacity: 0;
     pointer-events: none;
     transform: translateY(-30px);
     transition: all 0.4s ease;
-    border: 2px solid brown;
+    list-style: none;
+    border-radius: 6px;
   }
+
   .products li {
     font-size: nav-style.$dropdown-size;
-    width: max-content;
-    padding-left: 1%;
     overflow: hidden;
-    border: 1px solid yellowgreen;
+    width: 80%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .products li:hover {
-    background-color: fonts.$dark-green;
+    background-color: nav-style.$nav-hover;
 
   }
 
@@ -52,23 +54,13 @@
     color: fonts.$dark-green;
     font-size: nav-style.$nav-size;
     font-weight: nav-style.$bold;
-    width: 100%;
     transition: .2s;
-    border: 1px solid blue;
-    padding-left: 1%;
-    padding-right: 1%;
-
-    &:link, &:visited {
-        color: fonts.$dark-green;
-    }
-    &:hover, &:active, &:focus {
-        color: fonts.$beige;
-    }
-  }
-
-  .products a {
+    width: 100%;
     text-decoration: none;
-
+    text-align: center;
+      &:hover, &:focus {
+        color: fonts.$dark-green;
+      }
   }
 
   .dropdown button {

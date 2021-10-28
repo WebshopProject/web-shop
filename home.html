@@ -10,16 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9877bc6c1f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/index.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header nav-customize">
+    <header class="header">
         <nav class="nav-customize navbar navbar-expand-lg">
             <div class="container-fluid nav-container">
-                <a class="navbar-brand logo" href="index.html"><img src="images/logo/hand.svg" alt="logo of a hand"></a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-container navbar-nav navbar-customize">
+                    <a class="navbar-brand nav-logo" href="#">
+                        <img class="logo" src="/images/logo/green-hand.svg" alt="logo of the webshop, a drawing of a hand)">
+                    </a>
                     <li class="nav-item">
                         <a class="nav-link nav-link-customize" aria-current="page" href="index.html">Home</a>
                     </li>
@@ -27,7 +30,7 @@
                     <div class="dropdown">
                         <div class="products">
                             <button class="nav-item nav-link-customize">Products</button>
-                            <ul class="navbar-customize">
+                            <ul class="navbar-customize dropdown-menu-customize">
                               <li class="nav-item">
                                   <a href="#" class="dropdown-link-customize">Category</a>
                                 </li>
@@ -53,9 +56,11 @@
                     <li class="nav-item">
                         <a class="nav-link nav-link-customize" href="#">Contact</a>
                     </li>
+                    <a class="cart" href="#">
+                        <img class="cart__icon" src="/images/logo/green.svg" alt="icon of basket">
+                    </a>
                 </ul>
                 </div>
-                <a href="#" class="cart"><img src="images/logo/so-basket.svg" alt="icon of a shopping cart"></a>
             </div>
       </nav>
     </header>
@@ -124,52 +129,55 @@
     </main>
 
 <!--footer starts here-->
-<footer class="footer nav-customize text-center text-lg-start">
-    <div class="container p-4 pb-0 nav-customize footer__customize">
+<footer class="footer text-center text-lg-start">
+    <div class="container p-4 pb-0 footer__customize">
         <section class="">
             <div class="row">
                 <!--Contact-->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 footer__column">
                     <h6 class="mb-4 footer-title">
                         Contact
                     </h6>
-                    <p class="footer-title__info">
-                        City, Address, Sweden
+                    <p class="footer-info">
+                        <a href="#" class="footer__mail footer-info__link">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            City, Address, Sweden
+                        </a>
                     </p>
                     <p class="footer-info">
-                        <a href="mailto:#" class="footer-title__info footer__mail">
+                        <a href="mailto:#" class="footer__mail footer-info__link">
+                            <i class="fas fa-envelope footer__icon"></i>
                             info@mail.com
                         </a>
                     </p>
                     <p class="footer-info">
-                        <a href="mailto:#" class="footer-title__info footer__mail">
-                            support@mail.com
+                        <a href="tel:+" class="footer__mail footer-info__link">
+                            <i class="fas fa-phone footer__icon"></i>
+                            + a phone number
                         </a>
                     </p>
-                    <p class="footer-title__info">
-                        + a phone number
-                    </p>
                 </div>
+
                 <!--Links/Icons for social media-->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 footer__column social">
                     <h6 class="mb-4 footer-title">
                         Follow
                     </h6>
                     <!--Facebook-->
-                    <a href="#" class="social">
-                        <!--Icon-->
+                    <a href="#" class="social__link">
+                        <i class="fab fa-facebook footer__icon"></i>
                     </a>
                     <!--Twitter-->
-                    <a href="#" class="social">
-                        <!--Icon-->
+                    <a href="#" class="social__link">
+                        <i class="fab fa-twitter footer__icon"></i>
                     </a>
                     <!--Instagram-->
-                    <a href="#" class="social">
-                        <!--Icon-->
+                    <a href="#" class="social__link">
+                        <i class="fab fa-instagram footer__icon"></i>
                     </a>
                 </div>
                 <!--Customer info-->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 footer__column">
                     <h6 class="mb-4 footer-title">
                         Customer Info
                     </h6>
