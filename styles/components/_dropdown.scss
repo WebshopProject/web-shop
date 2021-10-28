@@ -1,12 +1,6 @@
 @use 'base/fonts';
 @use 'base/nav-style';
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
   a,
   button {
     font-family: fonts.$font;
@@ -15,9 +9,10 @@
   .dropdown {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 1%;
     padding-right: 1%;
-    border: 2px solid black;
+    border: 1px solid blue;
   }
 
   .products {
@@ -29,39 +24,45 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: fonts.$dark-green;
-    list-style: none;
+    justify-content: space-around;
+    // max-width: 600px;
+    // width: auto;
+    // height: auto;
+    background: fonts.$light-green;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-10px);
+    transform: translateY(-30px);
     transition: all 0.4s ease;
     border: 2px solid brown;
   }
   .products li {
-    font-size: 28px;
-    width: 100%;
+    font-size: nav-style.$dropdown-size;
+    width: max-content;
+    padding-left: 1%;
+    overflow: hidden;
     border: 1px solid yellowgreen;
   }
 
-  // .products li:hover {
-  //   background-color: fonts.$dark-green;
+  .products li:hover {
+    background-color: fonts.$dark-green;
 
-  // }
+  }
 
   .dropdown-link-customize {
-    color: fonts.$beige;
+    color: fonts.$dark-green;
     font-size: nav-style.$nav-size;
     font-weight: nav-style.$bold;
+    width: 100%;
     transition: .2s;
     border: 1px solid blue;
     padding-left: 1%;
     padding-right: 1%;
 
     &:link, &:visited {
-        color: fonts.$beige;
+        color: fonts.$dark-green;
     }
     &:hover, &:active, &:focus {
-        color: fonts.$orange;
+        color: fonts.$beige;
     }
   }
 
@@ -75,7 +76,7 @@
     text-decoration: none;
     border: none;
     color: fonts.$dark-green;
-    font-size: 30px;
+    font-size: nav-style.$nav-size;
     cursor: pointer;
   }
 
