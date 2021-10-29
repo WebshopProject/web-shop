@@ -2,40 +2,11 @@
 @use 'base/nav-style';
 
 
-.logo, .cart {
-    padding-left: 1%;
-    padding-right: 1%;
-    border: 1px solid black;
-}
-
-.logo {
-    margin-left: 3%;
-    margin-right: 2%;
-}
-
 .cart {
-    margin-left: 2%;
-    margin-right: 3%;
-}
-
-.icon  {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    background-size: cover;
-    &__logo {
-
-        &:hover,
-        &:focus {
-
-        }
-    }
-    &__cart {
-
-        &:hover,
-        &:focus {
-
-        }
-
+    max-width: 75px;
+    display: flex;
+    justify-content: center;
+    &__icon {
+        width: 65%;
     }
 }
