@@ -9,7 +9,6 @@
     width: 90%;
     display: flex;
     justify-content: center;
-    border: 1px solid green;
     margin: auto;
 }
 
@@ -19,21 +18,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 
 }
-
-
 
 .nav-link-customize {
     color: fonts.$dark-green;
     font-size: nav-style.$nav-size;
     font-weight: nav-style.$bold;
     transition: .2s;
-    border: 1px solid black;
-    &:link, &:visited {
-        color: fonts.$dark-green;
-    }
     &:hover, &:active {
         color: fonts.$orange;
     }
