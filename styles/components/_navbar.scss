@@ -1,0 +1,41 @@
+@use 'base/fonts';
+@use 'base/nav-style';
+
+/*Customized styling for the navbar*/
+
+
+.nav-customize {
+    background-color: fonts.$light-green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+
+.navbar-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+
+
+.nav-link-customize {
+    color: fonts.$dark-green;
+    font-size: nav-style.$nav-size;
+    font-weight: nav-style.$bold;
+    transition: .2s;
+    border: 1px solid red;
+    padding-left: 1%;
+    padding-right: 1%;
+    &:link, &:visited {
+        color: fonts.$dark-green;
+    }
+    &:hover, &:active {
+        color: fonts.$orange;
+    }
+}

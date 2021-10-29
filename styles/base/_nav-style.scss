@@ -1,0 +1,15 @@
+@use 'fonts';
+
+//nav and footer styling
+$bold: 700;
+$regular: 400;
+$nav-size: 26px;
+
+//dropdown and icon styling
+$dropdown-size: 16px;
+$footer-size: 22px;
+$footer-info: 16px;
+$nav-hover: darken(fonts.$light-green, 5%);
+$nav-link-color: fonts.$beige;
+$nav-sub-width: 200px;
+$nav-breakpoint: 768px;
