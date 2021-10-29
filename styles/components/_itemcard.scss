@@ -1,3 +1,5 @@
+@use '../base/fonts';
+
 .box{
     overflow: hidden;
     position: relative;
@@ -6,24 +8,25 @@
 }
 .box:hover{ box-shadow: 0 0 0 5px rgba(0,0,0,0.1); }
 .box:before{
-    content: '';
+   /* content: '';
     height: 20px;
     width: 20px;
-    border-radius: 50%;
-    border: 3px solid #fff;
+     border-radius: 50%; 
+    border: 3px solid #fff;*/
     opacity: 0.9;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    z-index: 1;
+/*    position: absolute;
+     right: 5px;
+    top: 5px; */
+    z-index: -1;
     transition: all 0.4s ease-in-out;
     animation: animate 5s infinite linear;
 }
 .box:hover:before{
-    height: 280px;
+    height: 200px;
     width: 280px;
     top: -55px;
     right: -37px;
+    z-index: 1;
 }
 .box img{
     width: 100%;
@@ -80,20 +83,16 @@
     height: 30px;
     width: 30px;
     margin: 7px 0;
-    border-radius: 50% 50% 50% 0;
+    /* border-radius: 50% 50% 50% 0; */
     display: block;
     transition: all 0.3s;
     animation: animate 5s infinite linear;
 }
-.box .icon li a:hover{ box-shadow: 0 0 0 2px #fff inset; }
-@keyframes animate{
-    0%{ background-color: #2A5138; }
-    20%{ background-color: #6b9179; }
-    40%{ background-color:#f5c99b; }
-    60%{ background-color:#f5c99b; }
-    80%{ background-color: #6b9179; }
-    100%{ background-color: #2A5138; }
+.box .icon li a:hover{ 
+    /* box-shadow: 0 0 0 2px #fff inset;  */
+    color: fonts.$orange;
 }
+
 @media only screen and (max-width:990px){
     .box { margin: 0 0 30px; }
 }
