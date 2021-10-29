@@ -1,0 +1,12 @@
+@import 'components/navbar';
+
+.header {
+    margin: 0;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;     //can be changed, just need some margin to see navbar in function
+    // position: fixed;        //test for fixed
+    position: sticky;       //test for sticky
+    top: 0;
+}
