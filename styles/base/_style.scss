@@ -18,3 +18,16 @@
     color: fonts.$dark-green;
     font-size: 16px;
 }
+
+a:link {
+    text-decoration: none;
+    color: fonts.$dark-green;
+}
+a:visited {
+    color: fonts.$dark-green;
+    opacity: 0.8;
+}
+a:hover {
+    color: fonts.$orange;
+    cursor: pointer;
+}
