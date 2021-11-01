@@ -1,0 +1,16 @@
+
+@use 'base/fonts';
+
+@import 'pages/categories';
+@import 'main';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/itemcard';
+@import 'startpage';
+@import 'pages/product';
+
+
+body {
+    font-family: fonts.$font;
+    background-color: fonts.$beige;
+}

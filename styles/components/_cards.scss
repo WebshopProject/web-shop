@@ -2,23 +2,25 @@
 .card--custom {
     border: 3px solid fonts.$light-green;
     background-color: fonts.$beige;
+}
+
+.card-img {
     opacity: 0.7;
 }
 
 .card__title {
-    font-size: 24px; //adjust if needed
+    font-size: 20px; //adjust if needed
     color: fonts.$dark-green;
     text-align: center;
 }
 
 .card__txt {
-    font-size: px; //adjust if needed
+    font-size: 14px; //adjust if needed
     color: fonts.$dark-green;
 }
 
 .card:hover {
     border: 2px solid fonts.$dark-green;
-    opacity: 1;
 }
 
 .card--filled {
