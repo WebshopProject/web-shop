@@ -2,6 +2,7 @@
 @use 'base/fonts';
 
 @import 'pages/categories';
+@import 'pages/contact';
 @import 'main';
 @import 'components/buttons';
 @import 'components/cards';
@@ -11,6 +12,6 @@
 
 
 body {
-    font-family: fonts.$font;
-    background-color: fonts.$beige;
+    font-family: $font;
+    background-color: $beige;
 }

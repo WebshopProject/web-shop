@@ -3,23 +3,23 @@
 
 //light-green button
 .btn--light {
-    background-color: fonts.$light-green;
-    font-family: fonts.$font;
-    color: fonts.$dark-green;
+    background-color: $light-green;
+    font-family: $font;
+    color: $dark-green;
     font-size: 16px; //adjust if needed
     border-radius: 1px;
 }
 
 //dark-green button
 .btn--dark {
-    background-color: fonts.$dark-green;
-    font-family: fonts.$font;
-    color: fonts.$beige;
+    background-color: $dark-green;
+    font-family: $font;
+    color: $beige;
     font-size: 16px; //adjust if needed
     border-radius: 1px;
 }
 
 .btn:hover {
-    background-color: fonts.$orange;
+    background-color: $orange;
     cursor: pointer;
 }

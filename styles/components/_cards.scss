@@ -1,7 +1,8 @@
 
+@import './../base/fonts';
 .card--custom {
-    border: 3px solid fonts.$light-green;
-    background-color: fonts.$beige;
+    border: 3px solid $light-green;
+    background-color: $beige;
 }
 
 .card-img {
@@ -10,19 +11,19 @@
 
 .card__title {
     font-size: 20px; //adjust if needed
-    color: fonts.$dark-green;
+    color: $dark-green;
     text-align: center;
 }
 
 .card__txt {
     font-size: 14px; //adjust if needed
-    color: fonts.$dark-green;
+    color: $dark-green;
 }
 
 .card:hover {
-    border: 2px solid fonts.$dark-green;
+    border: 2px solid $dark-green;
 }
 
 .card--filled {
-    background-color: fonts.$light-green;
+    background-color: $light-green;
 }

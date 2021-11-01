@@ -7,18 +7,18 @@
 
 
 .h1--title {
-    color: fonts.$beige;
-    text-shadow: 2px 2px 2px fonts.$maroon;
+    color: $beige;
+    text-shadow: 2px 2px 2px $maroon;
 }
 .section--title {
-    color: fonts.$dark-green;
+    color: $dark-green;
 }
 .a--link {
     font-size: 16px; //adjust if needed
-    color: fonts.$dark-green;
+    color: $dark-green;
 }
 .a--link:hover{
-    color: fonts.$link-hover-green;
+    color: $link-hover-green;
 }
 .carousel-content {
     position: absolute;

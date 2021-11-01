@@ -1,13 +1,13 @@
 @use 'base/fonts';
 
-@import 'components/cards';
-@import 'components/buttons';
+@import './../components/cards';
+@import './../components/buttons';
 
 body {
-    font-family: fonts.$font;
-    background-color: fonts.$beige;
+    font-family:$font;
+    background-color:$beige;
 }
 
 .title--categories {
-    color: fonts.$dark-green;
+    color:$dark-green;
 }

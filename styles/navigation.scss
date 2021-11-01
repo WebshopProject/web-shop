@@ -1,6 +1,6 @@
 @use 'base/fonts';
 
-@import 'categories';
+@import './pages/categories';
 @import 'main';
 @import 'components/buttons';
 @import 'components/cards';
@@ -8,7 +8,7 @@
 @import 'components/itemcard';
 @import 'startpage';
 body {
-    font-family: fonts.$font;
-    background-color: fonts.$beige;
+    font-family: $font;
+    background-color: $beige;
 }
 @import 'nav';
