@@ -1,10 +1,9 @@
+@use 'base/fonts';
 
-.product-price {
-    font-size: 18px;
+.title--product {
+    font-size: 28px;
+    font-family: fonts.$font;
+    color: fonts.$dark-green;
+    text-transform: uppercase;
 }
 
-// .info--product {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-evenly;
-// }
