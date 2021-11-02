@@ -7,8 +7,26 @@
     text-align: center;
 }
 
+.min-title {
+    font-family: fonts.$font;
+    color: fonts.$dark-green;
+    font-size: 24px;
+}
+
 .info-txt {
     font-family: fonts.$font;
     color: fonts.$dark-green;
     font-size: 16px;
+}
+
+a:link {
+    text-decoration: none;
+    color: fonts.$dark-green;
+}
+a:visited {
+    color: cornflowerblue;
+}
+a:hover {
+    color: fonts.$orange;
+    cursor: pointer;
 }
