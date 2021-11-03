@@ -5,13 +5,14 @@
 @import 'components/buttons';
 
 
-/* .a--link {
+.a--link {
     font-size: 16px; //adjust if needed
     color: fonts.$dark-green;
 }
 .a--link:hover{
-    color: fonts.$link-hover-green;
-} */
+    color: fonts.$orange;
+    cursor: pointer;
+}
 .carousel-content {
     position: absolute;
     top: 74%;
@@ -24,4 +25,5 @@
 }
 .d-block--h{
     height: 90vh;
+    min-height: 310px;
 }
