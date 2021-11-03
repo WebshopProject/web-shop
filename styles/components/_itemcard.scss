@@ -4,19 +4,11 @@
     overflow: hidden;
     position: relative;
     transition: all 0.4s ease-in-out;
-    /* width: 250px; */
 }
-.box:hover{ box-shadow: 0 0 0 5px rgba(0,0,0,0.1); }
+.box:hover{ 
+    box-shadow: rgba(0,0,0,0.1); }
 .box:before{
-   /* content: '';
-    height: 20px;
-    width: 20px;
-     border-radius: 50%; 
-    border: 3px solid #fff;*/
     opacity: 0.9;
-/*    position: absolute;
-     right: 5px;
-    top: 5px; */
     z-index: -1;
     transition: all 0.4s ease-in-out;
     animation: animate 5s infinite linear;
@@ -74,6 +66,7 @@
     position: absolute;
     bottom: 5px;
     left: 13px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
 .box .icon li a{
     color: #fff;
@@ -83,13 +76,11 @@
     height: 30px;
     width: 30px;
     margin: 7px 0;
-    /* border-radius: 50% 50% 50% 0; */
     display: block;
     transition: all 0.3s;
     animation: animate 5s infinite linear;
 }
 .box .icon li a:hover{ 
-    /* box-shadow: 0 0 0 2px #fff inset;  */
     color: fonts.$orange;
 }
 
