@@ -22,11 +22,57 @@
 a:link {
     text-decoration: none;
     color: fonts.$dark-green;
+    font-size: 16px;
 }
-a:visited {
+/* a:visited {
     color: cornflowerblue;
-}
+} */
 a:hover {
     color: fonts.$orange;
     cursor: pointer;
+}
+
+@media only screen and (max-width:800px){
+    .page__title {
+        font-size: 28px;
+    }
+    .min-title {
+        font-size: 22px;
+    }
+    .info-txt {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:600px){
+    .page__title {
+        font-size: 26px;
+    }
+    .min-title {
+        font-size: 20px;
+    }
+    .info-txt {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:500px){
+    .page__title {
+        font-size: 24px;
+    }
+    .min-title {
+        font-size: 18px;
+    }
+    .info-txt {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:400px){
+    .page__title {
+        font-size: 20px;
+    }
+    .min-title {
+        font-size: 16px;
+    }
+    .info-txt {
+        font-size: 12px;
+    }
 }
