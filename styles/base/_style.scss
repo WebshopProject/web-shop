@@ -1,4 +1,6 @@
 @use 'base/fonts';
+@import '../components/navbar';
+@import '../components/buttons';
 
 .page__title {
     font-family: fonts.$font;
@@ -24,6 +26,10 @@ a:link {
     color: fonts.$dark-green;
     font-size: 16px;
 }
+.nav-bar-input-txt {
+    font-size: 14px; 
+    max-width: 210px; 
+}
 /* a:visited {
     color: cornflowerblue;
 } */
@@ -31,7 +37,23 @@ a:hover {
     color: fonts.$orange;
     cursor: pointer;
 }
-
+@media only screen  and (max-width: 1077px) { 
+    a:link {
+        font-size: 14px;   
+    }
+    .btn--dark {
+        font-size: 14px; 
+    }
+    
+}
+@media only screen  and (max-width: 1028px) { 
+    a:link {
+        font-size: 13px;   
+    }
+    .nav-bar-input-txt {
+        font-size: 13px;  
+    }
+}
 @media only screen and (max-width:800px){
     .page__title {
         font-size: 28px;
