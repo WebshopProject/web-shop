@@ -6,12 +6,18 @@
 
 .nav-customize {
     background-color: fonts.$light-green;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    border: 0;
+    border-style: none;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
-
+.sub-menu-customize {
+    background-color: fonts.$light-green;
+    border: 0;
+    border-style: none;
+}
 
 .navbar-container {
     width: 100%;
@@ -20,9 +26,6 @@
     align-items: center;
 
 }
-
-
-
 .nav-link-customize {
     color: fonts.$dark-green;
     font-size: nav-style.$nav-size;
@@ -32,3 +35,49 @@
         color: fonts.$orange;
     }
 }
+
+.display-right-ss{
+    display: flex;
+    flex-direction: column;
+}
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .dropdown-menu .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .dropdown-menu .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu>li:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown-menu>li:hover>.submenu {
+        display: block;
+    }
+}
+
+/* ============ desktop view .end// ============ */
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: .5rem;
+    }
+    .display-right-ss{
+        align-items: flex-start;
+    }
+}
+
+/* ============ small devices .end// ============ */
