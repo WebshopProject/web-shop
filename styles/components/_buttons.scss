@@ -23,3 +23,13 @@
     background-color: fonts.$orange;
     cursor: pointer;
 }
+
+.dark-btn-link {
+    text-decoration: none;
+}
+.dark-btn-link:hover {
+    color: fonts.$beige;
+}
+.dark-btn-link:visited {
+    color: fonts.$beige;
+}
