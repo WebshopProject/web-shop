@@ -5,6 +5,14 @@
 @import 'components/buttons';
 
 
+
+.h1--title {
+    color: fonts.$beige;
+    text-shadow: 2px 2px 2px fonts.$maroon;
+}
+.section--title {
+    color: fonts.$dark-green;
+}
 .a--link {
     font-size: 16px; //adjust if needed
     color: fonts.$dark-green;
@@ -12,6 +20,7 @@
 .a--link:hover{
     color: fonts.$orange;
     cursor: pointer;
+    // color: fonts.$link-hover-green;
 }
 .carousel-content {
     position: absolute;

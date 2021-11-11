@@ -27,8 +27,8 @@ a:link {
     font-size: 16px;
 }
 .nav-bar-input-txt {
-    font-size: 14px; 
-    max-width: 210px; 
+    font-size: 14px;
+    max-width: 210px;
 }
 /* a:visited {
     color: cornflowerblue;
@@ -37,21 +37,21 @@ a:hover {
     color: fonts.$orange;
     cursor: pointer;
 }
-@media only screen  and (max-width: 1077px) { 
+@media only screen  and (max-width: 1077px) {
     a:link {
-        font-size: 14px;   
+        font-size: 14px;
     }
     .btn--dark {
-        font-size: 14px; 
+        font-size: 14px;
     }
-    
+
 }
-@media only screen  and (max-width: 1028px) { 
+@media only screen  and (max-width: 1028px) {
     a:link {
-        font-size: 13px;   
+        font-size: 13px;
     }
     .nav-bar-input-txt {
-        font-size: 13px;  
+        font-size: 13px;
     }
 }
 @media only screen and (max-width:800px){
