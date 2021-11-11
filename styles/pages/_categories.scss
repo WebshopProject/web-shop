@@ -1,7 +1,7 @@
-@use 'base/fonts';
+@use '../base/fonts';
 
-@import 'components/cards';
-@import 'components/buttons';
+@import './../components/cards';
+@import './../components/buttons';
 
 body {
     font-family: fonts.$font;

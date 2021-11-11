@@ -1,0 +1,51 @@
+@use "../base/fonts";
+
+@import "./../components/cards";
+@import "./../components/buttons";
+
+body {
+  font-family: fonts.$font;
+  background-color: fonts.$beige;
+}
+
+.title--contact {
+  color: fonts.$dark-green;
+}
+
+.card__para--main {
+    font-size: 16px;
+    color: fonts.$dark-green;
+}
+
+.other--links {
+    background: fonts.$white;
+    border: 2px solid fonts.$dark-green;
+    border-radius: 5px;
+    padding: 40px 10px;
+
+  .other-links-title {
+      font-size: 28px;
+      color: fonts.$dark-green;
+  }
+
+  .main--img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .border-primary {
+    border-color: fonts.$orange !important;
+  }
+
+  .img-title {
+    a {
+      text-decoration: none;
+      color: fonts.$dark-green;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-bottom: 4px solid fonts.$orange;
+    }
+
+  }
+}
