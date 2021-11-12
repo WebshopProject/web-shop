@@ -268,7 +268,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1077px) {
+@media only screen and (max-width: 1086px) {
   a:link {
     font-size: 14px;
   }
