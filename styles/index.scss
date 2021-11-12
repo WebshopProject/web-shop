@@ -2,15 +2,16 @@
 @use 'base/fonts';
 @import 'base/style';
 @import 'pages/contact';
-@import 'main';
 @import 'components/buttons';
 @import 'components/cards';
-@import 'components/itemcard';
 @import 'startpage';
 @import 'pages/categories';
 @import 'pages/product';
+@import 'layout/footer';
 
 body {
     font-family: fonts.$font;
     background-color: fonts.$beige;
 }
+
+
