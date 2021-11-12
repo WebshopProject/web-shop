@@ -5,7 +5,7 @@
     position: relative;
     transition: all 0.4s ease-in-out;
 }
-.box:hover{ 
+.box:hover{
     box-shadow: rgba(0,0,0,0.1); }
 .box:before{
     opacity: 0.9;
@@ -80,7 +80,7 @@
     transition: all 0.3s;
     animation: animate 5s infinite linear;
 }
-.box .icon li a:hover{ 
+.box .icon li a:hover{
     color: fonts.$orange;
 }
 

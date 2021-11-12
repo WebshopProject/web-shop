@@ -1,5 +1,5 @@
-
+@import './base/fonts';
 body {
-    font-family: fonts.$font;
-    background-color: fonts.$beige;
+    font-family: $font;
+    background-color: $beige;
 }
