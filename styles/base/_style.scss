@@ -29,6 +29,18 @@ a:link {
 .nav-bar-input-txt {
     font-size: 14px;
     max-width: 210px;
+    &:focus, &:active, &:hover {
+        outline: .125rem solid fonts.$orange;
+        box-shadow: 0 0 0 .125rem fonts.$orange;
+    }
+}
+.footer-input-txt {
+    font-size: 14px;
+    max-width: 310px;
+    &:focus, &:active, &:hover {
+        outline: .125rem solid fonts.$orange;
+        box-shadow: 0 0 0 .125rem fonts.$orange;
+    }
 }
 /* a:visited {
     color: cornflowerblue;
