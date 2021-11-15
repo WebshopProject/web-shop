@@ -252,7 +252,7 @@ a:link {
 
 .footer-input-txt {
   font-size: 14px;
-  max-width: 310px;
+  max-width: 360px;
 }
 .footer-input-txt:focus, .footer-input-txt:active, .footer-input-txt:hover {
   outline: 0.125rem solid #F0A04B;
@@ -268,7 +268,7 @@ a:hover {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1077px) {
+@media only screen and (max-width: 1086px) {
   a:link {
     font-size: 14px;
   }
