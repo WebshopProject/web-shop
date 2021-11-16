@@ -41,7 +41,7 @@
     flex-direction: column;
 }
 /* ============ desktop view ============ */
-@media all and (min-width: 992px) {
+@media all and (min-width: 998px) {
     .dropdown-menu li {
         position: relative;
     }
@@ -69,7 +69,7 @@
 
 /* ============ desktop view .end// ============ */
 /* ============ small devices ============ */
-@media (max-width: 991px) {
+@media (max-width: 998px) {
     .dropdown-menu .dropdown-menu {
         margin-left: 0.7rem;
         margin-right: 0.7rem;

@@ -1,5 +1,4 @@
 @use 'base/fonts';
-@import '../components/navbar';
 @import '../components/buttons';
 
 .page__title {
@@ -50,7 +49,7 @@ a:hover {
     color: fonts.$orange;
     cursor: pointer;
 }
-@media only screen  and (max-width: 1086px) {
+@media only screen  and (max-width: 1137px) {
     a:link {
         font-size: 14px;
     }
@@ -59,12 +58,26 @@ a:hover {
     }
 
 }
-@media only screen  and (max-width: 1028px) {
+@media only screen  and (max-width: 1073px) {
     a:link {
         font-size: 13px;
     }
     .nav-bar-input-txt {
         font-size: 13px;
+    }
+    .btn--dark {
+        font-size: 13px;
+    }
+}
+@media only screen  and (max-width: 1035px) {
+    a:link {
+        font-size: 12px;
+    }
+    .nav-bar-input-txt {
+        font-size: 12px;
+    }
+    .btn--dark {
+        font-size: 12px;
     }
 }
 @media only screen and (max-width:800px){
