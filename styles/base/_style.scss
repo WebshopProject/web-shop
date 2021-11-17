@@ -23,9 +23,20 @@
 
 a:link {
     text-decoration: none;
+    font-family: fonts.$font;
     color: fonts.$dark-green;
     font-size: 16px;
 }
+a:visited {
+    color: #508a65;
+} 
+a:hover {
+    color: fonts.$orange;
+    cursor: pointer;
+}
+
+
+
 .nav-bar-input-txt {
     font-size: 14px;
     max-width: 210px;
@@ -42,13 +53,7 @@ a:link {
         box-shadow: 0 0 0 .125rem fonts.$orange;
     }
 }
-/* a:visited {
-    color: cornflowerblue;
-} */
-a:hover {
-    color: fonts.$orange;
-    cursor: pointer;
-}
+
 @media only screen  and (max-width: 1137px) {
     a:link {
         font-size: 14px;
