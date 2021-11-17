@@ -11,6 +11,24 @@
 .info--product {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 500px;
+}
+
+.link--product {
+    display: inline-flex;
+    font-family: fonts.$font;
+    color: fonts.$dark-green;
+}
+
+.link--item {
+    color: fonts.$dark-green;
+    font-family: fonts.$font;
+    padding: 0.5em;
+}
+
+@media only screen and (max-width:400px) {
+    .link--item {
+        padding: 0;
+    }
 }
