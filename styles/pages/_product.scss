@@ -15,6 +15,11 @@
     max-width: 500px;
 }
 
+.fa-chevron-right {
+    color: #508a65;
+    font-size: 12px;
+}
+
 .link--product {
     display: inline-flex;
     color: fonts.$dark-green;
@@ -24,8 +29,12 @@
     padding: 0.5em;
 }
 
+
 @media only screen and (max-width:400px) {
     .link--item {
         padding: 0;
+    }
+    .fa-chevron-right {
+        font-size: 8px;
     }
 }
